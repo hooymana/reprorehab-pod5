@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Pod 5 Teaching Team">
+<meta name="dcterms.date" content="2026-09-03">
+
+<title>ReproRehab Bootcamp Curriculum: Pod 5 – ReproRehab Pod 5</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c9742badd1f2d364d699dc514acc6a1f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">ReproRehab Pod 5</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Curriculum</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/your-username/reprorehab-pod5"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Weeks</h2>
+   
+  <ul class="collapse">
+  <li><a href="#week-1-so-you-want-to-use-machine-learning-in-your-research." id="toc-week-1-so-you-want-to-use-machine-learning-in-your-research." class="nav-link active" data-scroll-target="#week-1-so-you-want-to-use-machine-learning-in-your-research.">Week 1: “So you want to use machine learning in your research.”</a></li>
+  <li><a href="#week-2-advanced-analyses-are-cool-but-pre-registration-is-cooler." id="toc-week-2-advanced-analyses-are-cool-but-pre-registration-is-cooler." class="nav-link" data-scroll-target="#week-2-advanced-analyses-are-cool-but-pre-registration-is-cooler.">Week 2: “Advanced analyses are cool, but pre-registration is cooler.”</a></li>
+  <li><a href="#week-3-behind-the-custom-code-veil-steps-to-avoid-sleight-of-hand-in-your-publications." id="toc-week-3-behind-the-custom-code-veil-steps-to-avoid-sleight-of-hand-in-your-publications." class="nav-link" data-scroll-target="#week-3-behind-the-custom-code-veil-steps-to-avoid-sleight-of-hand-in-your-publications.">Week 3: “Behind the ‘custom code’ veil: steps to avoid sleight of hand in your publications.”</a></li>
+  <li><a href="#week-4-harnessing-markdowns-as-supplemental-material." id="toc-week-4-harnessing-markdowns-as-supplemental-material." class="nav-link" data-scroll-target="#week-4-harnessing-markdowns-as-supplemental-material.">Week 4: “Harnessing markdowns as supplemental material.”</a></li>
+  <li><a href="#week-5-creating-a-data-sharing-and-management-plan-a-necessary-grant-skill." id="toc-week-5-creating-a-data-sharing-and-management-plan-a-necessary-grant-skill." class="nav-link" data-scroll-target="#week-5-creating-a-data-sharing-and-management-plan-a-necessary-grant-skill.">Week 5: “Creating a Data Sharing and Management Plan: A necessary grant skill.”</a></li>
+  <li><a href="#week-6-but-it-works-on-my-machine-reproducing-your-computational-environment." id="toc-week-6-but-it-works-on-my-machine-reproducing-your-computational-environment." class="nav-link" data-scroll-target="#week-6-but-it-works-on-my-machine-reproducing-your-computational-environment.">Week 6: “But it works on my machine!”: reproducing your computational environment.</a></li>
+  <li><a href="#week-7-personalized-lesson." id="toc-week-7-personalized-lesson." class="nav-link" data-scroll-target="#week-7-personalized-lesson.">Week 7: Personalized Lesson.</a></li>
+  <li><a href="#week-8-personalized-lesson." id="toc-week-8-personalized-lesson." class="nav-link" data-scroll-target="#week-8-personalized-lesson.">Week 8: Personalized Lesson.</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ReproRehab Bootcamp Curriculum: Pod 5</h1>
+<p class="subtitle lead">Advanced Pod</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Pod 5 Teaching Team </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This curriculum is designed for the Advanced Pod of ReproRehab. Its focus is the high-level, reproducible scientific products that meet the demands and rigor of peer-reviewed journals.</p>
+<p>Topics span, but are not limited to: machine learning, data visualization, effective production of data pipelines, and linear and non-linear mixed effects models. Rather than improving already-adequate coding skills, each week centers on the practices that make advanced work reproducible and replicable, so that there is a faithful record of both what you planned to do and what you actually did.</p>
+<p>The bootcamp includes eight weeks of lessons, each specific to a different topic.</p>
+<section id="week-1-so-you-want-to-use-machine-learning-in-your-research." class="level2">
+<h2 class="anchored" data-anchor-id="week-1-so-you-want-to-use-machine-learning-in-your-research.">Week 1: “So you want to use machine learning in your research.”</h2>
+<p>Machine learning is the application of cutting-edge, yet complex algorithms capable of handling data types and structures for which frequentist statistics are ill-suited. But that same complexity, and their varying interpretability, makes these the hardest models to reproduce or replicate. When you intend to use machine learning in your research, it is important to conform to the steps and procedures that journals are now looking for. To this end, this week we will review the <a href="https://www.equator-network.org/reporting-guidelines/checklist-for-artificial-intelligence-in-medical-imaging-claim-a-guide-for-authors-and-reviewers/">Checklist for Artificial Intelligence in Medical Imaging (CLAIM)</a>. Although CLAIM is specific to medical imaging, it contains all the necessary reporting areas for machine learning across disciplines. We will also point to TRIPOD+AI as a companion standard for prediction-model work, so you leave with a reporting template you can map directly onto your own pipeline.</p>
+</section>
+<section id="week-2-advanced-analyses-are-cool-but-pre-registration-is-cooler." class="level2">
+<h2 class="anchored" data-anchor-id="week-2-advanced-analyses-are-cool-but-pre-registration-is-cooler.">Week 2: “Advanced analyses are cool, but pre-registration is cooler.”</h2>
+<p>Advanced analysis of the ever-increasing pool of secondary data researchers can access is integral to hypothesis generation and validation. But how do we know the product of that analysis was what the researcher intended in the first place, and not just the eventual product of a fishing expedition? Pre-registration is increasingly demanded by academic journals, and its absence can limit where an analysis is published and how its validity is perceived. So what are the correct steps, and how do you do it efficiently? This week we will walk through registering an analysis on the <a href="https://osf.io/">Open Science Framework</a>. Because secondary-data work has its own distinct pitfalls (the data already exist, and you may have seen them), we will also look at dedicated templates for pre-registering secondary data analysis, so your record stays credible even when you did not collect the data yourself.</p>
+</section>
+<section id="week-3-behind-the-custom-code-veil-steps-to-avoid-sleight-of-hand-in-your-publications." class="level2">
+<h2 class="anchored" data-anchor-id="week-3-behind-the-custom-code-veil-steps-to-avoid-sleight-of-hand-in-your-publications.">Week 3: “Behind the ‘custom code’ veil: steps to avoid sleight of hand in your publications.”</h2>
+<p>As the code behind advanced analyses grows more complex and nuanced, more journals are recommending, or requiring, that authors make their “custom analysis code” publicly available. But at what point do you take your “scratch paper” and publish it to the internet for all to see? How can you build pipelines into your process to make that transition smoother, and which bad coding habits should you break to avoid the “Stack Overflow outrage”? This week focuses on the practices that turn private scripts into shareable code: sensible project organization, a clear README, favoring documented functions over one-off scripts, and choosing an appropriate license. We will anchor the discussion in Wilson et al.’s “Good Enough Practices in Scientific Computing” as a practical baseline you can hold your own repositories to.</p>
+</section>
+<section id="week-4-harnessing-markdowns-as-supplemental-material." class="level2">
+<h2 class="anchored" data-anchor-id="week-4-harnessing-markdowns-as-supplemental-material.">Week 4: “Harnessing markdowns as supplemental material.”</h2>
+<p>Sharing your code is a start, but a bare script rarely tells the full story of an analysis. Dynamic, literate documents, where prose, code, and output live in one file, let you publish a supplement that a reader can actually follow and re-run, rather than a static PDF that divorces the results from the process. How do you turn an analysis into a supplement that doubles as a reproducibility record? This week we will build a computational document in Quarto (or R Markdown), interleaving narrative, analysis code, and figures so that every number and plot traces back to the code that produced it. Increasingly, journals accept these notebooks as supplemental material, and, conveniently, it is the same tool we will use to publish this very curriculum.</p>
+</section>
+<section id="week-5-creating-a-data-sharing-and-management-plan-a-necessary-grant-skill." class="level2">
+<h2 class="anchored" data-anchor-id="week-5-creating-a-data-sharing-and-management-plan-a-necessary-grant-skill.">Week 5: “Creating a Data Sharing and Management Plan: A necessary grant skill.”</h2>
+<p>Since the 2023 <a href="https://grants.nih.gov/grants-process/write-application/forms-directory/data-management-and-sharing-plan-format-page">NIH Data Management and Sharing Policy</a>, a credible plan for managing and sharing your data is no longer optional. It is a funded-grant prerequisite and, increasingly, a publication one. But what actually belongs in a plan, and how do you write one that satisfies both a study section and your future self? This week we will work through the components of a DMSP: data types and standards, the repository where data will live, access and reuse terms, and timelines. We will ground the plan in the FAIR principles (Findable, Accessible, Interoperable, Reusable) and survey generalist repositories (Dryad, Zenodo, OSF, figshare) alongside domain-specific ones, then use the DMPTool to scaffold a compliant draft. To make the “Interoperable” principle concrete for rehabilitation work, we will introduce <a href="https://dapr.usc.edu/faq">DAPR MAPR</a> (Mapping Application to Prepare Rehabilitation data), a tool that grew out of the ReproRehab program itself. MAPR takes the variable names from your dataset and suggests standardized equivalents from the DAPR schema and established common data elements (such as the OMOP Common Data Model), returning a suggested data dictionary. It is a practical way to harmonize your variables so your data can be combined with, or reused by, other groups rather than stranded in idiosyncratic naming.</p>
+</section>
+<section id="week-6-but-it-works-on-my-machine-reproducing-your-computational-environment." class="level2">
+<h2 class="anchored" data-anchor-id="week-6-but-it-works-on-my-machine-reproducing-your-computational-environment.">Week 6: “But it works on my machine!”: reproducing your computational environment.</h2>
+<p>You have shared your code and wrapped it in a dynamic document, but will it actually run on a reviewer’s computer, or on yours a year from now, after a software update? The most common reproducibility failure is not missing code; it is a missing environment. The same script can return different results, or refuse to run at all, once package versions, dependencies, or the underlying software have drifted. This week covers how to capture and share the environment alongside the analysis: recording package and software versions (<code>sessionInfo()</code>, <code>requirements.txt</code>), pinning dependencies with environment managers (<code>renv</code> for R; virtual environments, <code>conda</code>, or <code>uv</code> for Python), and, when full fidelity matters, containerizing your workflow with Docker or publishing an executable version with Binder. The aim is a record of not just what you did, but the exact conditions under which you did it, so that “it works on my machine” becomes “it works on any machine.”</p>
+</section>
+<section id="week-7-personalized-lesson." class="level2">
+<h2 class="anchored" data-anchor-id="week-7-personalized-lesson.">Week 7: Personalized Lesson.</h2>
+<p>With the reproducibility practices of this pod in hand, this week turns to the statistical approaches or algorithms that interest you. Bring a method you want to apply to your own research, whether a mixed-effects model, a machine-learning pipeline, a non-linear approach, or whatever your work demands, and we will work through it as a group. The goal is not just to run the method, but to run it in a way that carries the habits this bootcamp emphasizes: a pre-specified plan, shareable code, a documented environment, and a supplement that others could reproduce.</p>
+</section>
+<section id="week-8-personalized-lesson." class="level2">
+<h2 class="anchored" data-anchor-id="week-8-personalized-lesson.">Week 8: Personalized Lesson.</h2>
+<p>This week continues to follow your interests, giving you dedicated time and support to apply an advanced method to your own research paradigm. Whether you extend the method from the previous personalized session or take on a second one, the emphasis stays on reproducibility from the ground up: a pre-specified plan, version-controlled and shareable code, a captured environment, and a literate document you could attach to a submission. This also sets you up for the self-study period that follows the bootcamp, when you will finalize the program-specific product that ties these skills together, so come prepared to share a work-in-progress and leave with a clear path to completing it.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>ReproRehab Advanced Pod (Pod 5)</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
