@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "ReproRehab Pod 5"
+  description: "Advanced Pod curriculum for the ReproRehab bootcamp"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: "Curriculum"
+    right:
+      - icon: github
+        href: https://github.com/your-username/reprorehab-pod5
+        aria-label: GitHub
+  page-footer:
+    center: "ReproRehab Advanced Pod (Pod 5)"
+
+format:
+  html:
+    theme: Journal
+    toc: true
+    toc-depth: 2
+    toc-title: "Weeks"
+    number-sections: false
+    anchor-sections: true
+    smooth-scroll: true

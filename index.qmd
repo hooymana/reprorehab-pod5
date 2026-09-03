@@ -1,0 +1,44 @@
+---
+title: "ReproRehab Bootcamp Curriculum: Pod 5"
+subtitle: "Advanced Pod"
+author: "Pod 5 Teaching Team"
+date: last-modified
+---
+
+This curriculum is designed for the Advanced Pod of ReproRehab. Its focus is the high-level, reproducible scientific products that meet the demands and rigor of peer-reviewed journals.
+
+Topics span, but are not limited to: machine learning, data visualization, effective production of data pipelines, and linear and non-linear mixed effects models. Rather than improving already-adequate coding skills, each week centers on the practices that make advanced work reproducible and replicable, so that there is a faithful record of both what you planned to do and what you actually did.
+
+The bootcamp includes eight weeks of lessons, each specific to a different topic.
+
+## Week 1: "So you want to use machine learning in your research."
+
+Machine learning is the application of cutting-edge, yet complex algorithms capable of handling data types and structures for which frequentist statistics are ill-suited. But that same complexity, and their varying interpretability, makes these the hardest models to reproduce or replicate. When you intend to use machine learning in your research, it is important to conform to the steps and procedures that journals are now looking for. To this end, this week we will review the [Checklist for Artificial Intelligence in Medical Imaging (CLAIM)](https://www.equator-network.org/reporting-guidelines/checklist-for-artificial-intelligence-in-medical-imaging-claim-a-guide-for-authors-and-reviewers/). Although CLAIM is specific to medical imaging, it contains all the necessary reporting areas for machine learning across disciplines. We will also point to TRIPOD+AI as a companion standard for prediction-model work, so you leave with a reporting template you can map directly onto your own pipeline.
+
+## Week 2: "Advanced analyses are cool, but pre-registration is cooler."
+
+Advanced analysis of the ever-increasing pool of secondary data researchers can access is integral to hypothesis generation and validation. But how do we know the product of that analysis was what the researcher intended in the first place, and not just the eventual product of a fishing expedition? Pre-registration is increasingly demanded by academic journals, and its absence can limit where an analysis is published and how its validity is perceived. So what are the correct steps, and how do you do it efficiently? This week we will walk through registering an analysis on the [Open Science Framework](https://osf.io/). Because secondary-data work has its own distinct pitfalls (the data already exist, and you may have seen them), we will also look at dedicated templates for pre-registering secondary data analysis, so your record stays credible even when you did not collect the data yourself.
+
+## Week 3: "Behind the 'custom code' veil: steps to avoid sleight of hand in your publications."
+
+As the code behind advanced analyses grows more complex and nuanced, more journals are recommending, or requiring, that authors make their "custom analysis code" publicly available. But at what point do you take your "scratch paper" and publish it to the internet for all to see? How can you build pipelines into your process to make that transition smoother, and which bad coding habits should you break to avoid the "Stack Overflow outrage"? This week focuses on the practices that turn private scripts into shareable code: sensible project organization, a clear README, favoring documented functions over one-off scripts, and choosing an appropriate license. We will anchor the discussion in Wilson et al.'s "Good Enough Practices in Scientific Computing" as a practical baseline you can hold your own repositories to.
+
+## Week 4: "Harnessing markdowns as supplemental material."
+
+Sharing your code is a start, but a bare script rarely tells the full story of an analysis. Dynamic, literate documents, where prose, code, and output live in one file, let you publish a supplement that a reader can actually follow and re-run, rather than a static PDF that divorces the results from the process. How do you turn an analysis into a supplement that doubles as a reproducibility record? This week we will build a computational document in Quarto (or R Markdown), interleaving narrative, analysis code, and figures so that every number and plot traces back to the code that produced it. Increasingly, journals accept these notebooks as supplemental material, and, conveniently, it is the same tool we will use to publish this very curriculum.
+
+## Week 5: "Creating a Data Sharing and Management Plan: A necessary grant skill."
+
+Since the 2023 [NIH Data Management and Sharing Policy](https://grants.nih.gov/grants-process/write-application/forms-directory/data-management-and-sharing-plan-format-page), a credible plan for managing and sharing your data is no longer optional. It is a funded-grant prerequisite and, increasingly, a publication one. But what actually belongs in a plan, and how do you write one that satisfies both a study section and your future self? This week we will work through the components of a DMSP: data types and standards, the repository where data will live, access and reuse terms, and timelines. We will ground the plan in the FAIR principles (Findable, Accessible, Interoperable, Reusable) and survey generalist repositories (Dryad, Zenodo, OSF, figshare) alongside domain-specific ones, then use the DMPTool to scaffold a compliant draft. To make the "Interoperable" principle concrete for rehabilitation work, we will introduce [DAPR MAPR](https://dapr.usc.edu/faq) (Mapping Application to Prepare Rehabilitation data), a tool that grew out of the ReproRehab program itself. MAPR takes the variable names from your dataset and suggests standardized equivalents from the DAPR schema and established common data elements (such as the OMOP Common Data Model), returning a suggested data dictionary. It is a practical way to harmonize your variables so your data can be combined with, or reused by, other groups rather than stranded in idiosyncratic naming.
+
+## Week 6: "But it works on my machine!": reproducing your computational environment.
+
+You have shared your code and wrapped it in a dynamic document, but will it actually run on a reviewer's computer, or on yours a year from now, after a software update? The most common reproducibility failure is not missing code; it is a missing environment. The same script can return different results, or refuse to run at all, once package versions, dependencies, or the underlying software have drifted. This week covers how to capture and share the environment alongside the analysis: recording package and software versions (`sessionInfo()`, `requirements.txt`), pinning dependencies with environment managers (`renv` for R; virtual environments, `conda`, or `uv` for Python), and, when full fidelity matters, containerizing your workflow with Docker or publishing an executable version with Binder. The aim is a record of not just what you did, but the exact conditions under which you did it, so that "it works on my machine" becomes "it works on any machine."
+
+## Week 7: Personalized Lesson.
+
+With the reproducibility practices of this pod in hand, this week turns to the statistical approaches or algorithms that interest you. Bring a method you want to apply to your own research, whether a mixed-effects model, a machine-learning pipeline, a non-linear approach, or whatever your work demands, and we will work through it as a group. The goal is not just to run the method, but to run it in a way that carries the habits this bootcamp emphasizes: a pre-specified plan, shareable code, a documented environment, and a supplement that others could reproduce.
+
+## Week 8: Personalized Lesson.
+
+This week continues to follow your interests, giving you dedicated time and support to apply an advanced method to your own research paradigm. Whether you extend the method from the previous personalized session or take on a second one, the emphasis stays on reproducibility from the ground up: a pre-specified plan, version-controlled and shareable code, a captured environment, and a literate document you could attach to a submission. This also sets you up for the self-study period that follows the bootcamp, when you will finalize the program-specific product that ties these skills together, so come prepared to share a work-in-progress and leave with a clear path to completing it.
