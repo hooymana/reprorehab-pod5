@@ -12,7 +12,7 @@ website:
         text: "Curriculum"
     right:
       - icon: github
-        href: https://github.com/your-username/reprorehab-pod5
+        href: https://github.com/hooymana/reprorehab-pod5
         aria-label: GitHub
   page-footer:
     center: "ReproRehab Advanced Pod (Pod 5)"
