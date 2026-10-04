@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "ReproRehab Bootcamp Curriculum: Pod 5",
     "section": "",
-    "text": "This curriculum is designed for the Advanced Pod of ReproRehab. Its focus is the high-level, reproducible scientific products that meet the demands and rigor of peer-reviewed journals.\nTopics span, but are not limited to: machine learning, data visualization, effective production of data pipelines, and linear and non-linear mixed effects models. Rather than improving already-adequate coding skills, each week centers on the practices that make advanced work reproducible and replicable, so that there is a faithful record of both what you planned to do and what you actually did.\nThe bootcamp includes eight weeks of lessons, each specific to a different topic."
+    "text": "This curriculum is designed for the Advanced Pod of ReproRehab. Its focus is the high-level, reproducible scientific products that meet the demands and rigor of peer-reviewed journals.\nTopics span, but are not limited to: machine learning, data visualization, effective production of data pipelines, and linear and non-linear mixed effects models. Rather than improving already-adequate coding skills, each week centers on the practices that make advanced work reproducible and replicable, so that there is a faithful record of both what you planned to do and what you actually did.\nThe bootcamp includes eight weeks of lessons, each specific to a different topic.\nWeekly Materials for each week referenced across each week can be found here:"
   },
   {
     "objectID": "index.html#week-1-so-you-want-to-use-machine-learning-in-your-research.",
