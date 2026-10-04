@@ -11,6 +11,13 @@ Topics span, but are not limited to: machine learning, data visualization, effec
 
 The bootcamp includes eight weeks of lessons, each specific to a different topic.
 
+Weekly Materials for each week referenced across each week can be found here:
+
+::: {.callout-note}
+[Course materials (Google Drive)](https://drive.google.com/drive/folders/1lEbwVuTZFopxSa38sS_LnoQJaQ1hTWRU?usp=sharing)
+:::
+
+
 ## Week 1: "So you want to use machine learning in your research."
 
 Machine learning is the application of cutting-edge, yet complex algorithms capable of handling data types and structures for which frequentist statistics are ill-suited. But that same complexity, and their varying interpretability, makes these the hardest models to reproduce or replicate. When you intend to use machine learning in your research, it is important to conform to the steps and procedures that journals are now looking for. To this end, this week we will review the [Checklist for Artificial Intelligence in Medical Imaging (CLAIM)](https://www.equator-network.org/reporting-guidelines/checklist-for-artificial-intelligence-in-medical-imaging-claim-a-guide-for-authors-and-reviewers/). Although CLAIM is specific to medical imaging, it contains all the necessary reporting areas for machine learning across disciplines. We will also point to TRIPOD+AI as a companion standard for prediction-model work, so you leave with a reporting template you can map directly onto your own pipeline.
