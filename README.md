@@ -6,7 +6,7 @@ Curriculum for the Advanced Pod of the [ReproRehab](https://www.reprorehab.usc.e
 
 Once published, the curriculum is available at:
 
-`https://your-username.github.io/reprorehab-pod5/`
+`https://hooymana.github.io/reprorehab-pod5/`
 
 ## Build locally
 
