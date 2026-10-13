@@ -34,6 +34,8 @@ Advanced analysis of the ever-increasing pool of secondary data researchers can 
 
 As the code behind advanced analyses grows more complex and nuanced, more journals are recommending, or requiring, that authors make their "custom analysis code" publicly available. But at what point do you take your "scratch paper" and publish it to the internet for all to see? How can you build pipelines into your process to make that transition smoother, and which bad coding habits should you break to avoid the "Stack Overflow outrage"? This week focuses on the practices that turn private scripts into shareable code: sensible project organization, a clear README, favoring documented functions over one-off scripts, and choosing an appropriate license. We will anchor the discussion in Wilson et al.'s "Good Enough Practices in Scientific Computing" as a practical baseline you can hold your own repositories to.
 
+{{< video https://youtu.be/gV1g6c9gpRU >}}
+
 ## Week 4: "Harnessing markdowns as supplemental material."
 
 Sharing your code is a start, but a bare script rarely tells the full story of an analysis. Dynamic, literate documents, where prose, code, and output live in one file, let you publish a supplement that a reader can actually follow and re-run, rather than a static PDF that divorces the results from the process. How do you turn an analysis into a supplement that doubles as a reproducibility record? This week we will build a computational document in Quarto (or R Markdown), interleaving narrative, analysis code, and figures so that every number and plot traces back to the code that produced it. Increasingly, journals accept these notebooks as supplemental material, and, conveniently, it is the same tool we will use to publish this very curriculum.
